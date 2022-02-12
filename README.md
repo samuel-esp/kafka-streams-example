@@ -61,4 +61,6 @@ You need to build the .jar file for every microservice using the following comma
 mvn spring-boot:build-image service_name
 ```
 
-Then you can use the four scripts available to build the containers and to start and stop the services: ```build-images.sh```, ```start-services.sh```, ```stop-services.sh```, ```remove-images.sh```
+Then you can use the four scripts available to build the containers and to start and stop the services: 
+
+```build-images.sh```, ```start-services.sh```, ```stop-services.sh```, ```remove-images.sh```
