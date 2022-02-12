@@ -1,6 +1,6 @@
 # Kafka Streams Example Application
 
-This project is a microservices application which implements a communication based on kafka streams. There are 3 microservices inside the project: Input Microservice, Processor Microservice and Output Microservice. The Input Microservice sends a stream through the ```"students-topic"```, the Processor Microservice filter the stream received as an input from the "students-topic" and send the result to the Output Microservices using the ```"older-students-topic"``` 
+This project is a microservices application which implements a communication based on Kafka Streams and Spring Cloud Stream. There are 3 microservices inside the project: Input Microservice, Processor Microservice and Output Microservice. The Input Microservice sends a stream through the ```"students-topic"```, the Processor Microservice filter the stream received as an input from the "students-topic" and send the result to the Output Microservices using the ```"older-students-topic"``` 
 
 ## Spring Boot Application Properties :leaves:
 
