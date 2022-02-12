@@ -1,4 +1,4 @@
-# kafka-streams-example
+# Kafka Streams Example Application
 
 This project is a microservices application which implements a communication based on kafka streams. There are 3 microservices inside the project: Input Microservice, Processor Microservice and Output Microservice. The Input Microservice sends a stream through the ```"students-topic"```, the Processor Microservice filter the stream received as an input from the "students-topic" and send the result to the Output Microservices using the ```"older-students-topic"``` 
 
@@ -61,4 +61,4 @@ You need to build the .jar file for every microservice using the following comma
 mvn spring-boot:build-image service_name
 ```
 
-Then you can use the four scripts available to build the containers and to start and stop the services
+Then you can use the four scripts available to build the containers and to start and stop the services: ```build-images.sh```, ```start-services.sh```, ```stop-services.sh```, ```remove-images.sh```
